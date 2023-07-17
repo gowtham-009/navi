@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid red;
+    width: 90%;
+    margin: 4%;
+    padding: 3px;
+}
+.navbar{
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.logo{
+    display: flex;
+    width:210px;
+    height: 110px;
+    margin-left: 20px;
+    align-items: center;
+    color: aliceblue;
+    flex-wrap: wrap;
+    
+}
+.logo img{
+    width: 70px;
+    height:80px;
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    align-items: center;
+    font-size:22px;
+    justify-content:space-evenly;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+.navlinks li{
+    list-style-type: none;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: white;
+}
+.navlinks li a:hover{
+    background-color: azure;
+    color: black;
+    border-radius: 2px;
+}
+.btn{
+    display:flex;
+    justify-content:flex-end;
+    width: 50%;
+    align-items: center;
+    font-size:22px; 
+    flex-wrap: wrap;
+}
+.btn li{
+    list-style-type: none;  
+}
+.btn li a{
+    text-align: center;
+    text-decoration: none;
+    color:rgb(23, 207, 90);
+    font-size:22px;
+    display: flex;
+    background-color:white;
+    padding: 5px;
+    height: 50px;
+    align-items: center;
+    border-radius: 2px;
+    border: 1px solid rgb(23, 207, 90);
+    flex-wrap: wrap;
+}
+.btn li a:hover{
+    background-color: rgb(23, 207, 90);
+    color: black;
+}
+/* ------------------- */
+.navbar-2{
+    background-color: blueviolet;
+    display: flex;
+   
+}
+.logo-2{
+    width: 210px;
+    display: flex;
+ 
+    justify-content: center;
+}
+.logo-2 img{
+    width: 70px;
+}
+.navlinks-2{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 3%;
+}
+.navlinks-2 li{
+    list-style-type: none;
+}
+.navlinks-2 a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.navlinks-2 a:hover{
+    background-color: brown;
+    color: white;
+    border-radius: 2px;
+}
